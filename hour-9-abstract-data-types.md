@@ -11,4 +11,4 @@
 6. Would it make sense to implement an array using astack?
 - No
 7. Is a linked list an example of an ADT?
-- No because we know that a linked list is implemented in a certain way. (Abstration is not required)
+- No because we know that a linked list is implemented in a certain way (Abstration is not required.)
