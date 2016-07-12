@@ -36,13 +36,11 @@ function mergeSort(arr) {
     }
 
     while (firstArr.length === 0 && secondArr.length > 0) {
-      var elem = secondArr.shift();
-      thirdArr.push(elem);
+      thirdArr.push(secondArr.shift());
     }
 
     while (firstArr.length > 0 && secondArr.length === 0) {
-      var elem = firstArr.shift();
-      thirdArr.push(elem);
+      thirdArr.push(firstArr.shift());
     }
 
     return thirdArr;
