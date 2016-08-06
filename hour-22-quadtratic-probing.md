@@ -1,7 +1,7 @@
 1) Why do we need quadtratic probing and double hashing?
 - Because clustering is a huge problem with linear probing.
 2) What determines the step size in quadtratic probing?
-- Step count (or step * step.)
+- Step count or (step * step)
 3) What determines the step size in double hashing
 - A secondary hash function derived from the length of the array and the current item's key (or index.)
 4) What's the disadvantage of quadtratic probing (compared with double hashing)
